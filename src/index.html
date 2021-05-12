@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="./libs/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="./libs/aos.css">
+	<link rel="stylesheet" href="./libs/jquery.raty.css">
+	<link rel="stylesheet" href="./libs/slick.css">
+	<link rel="stylesheet" href="./libs/slick-theme.css">
+	<link rel="stylesheet" href="./css/style.css" />
+	<title>Keduki Como</title>
+</head>
+
+<body>
+	<div class="site__wrapper">
+		<header class="site__header">
+			<img src="./img/header-left.png" alt="дерево" class="header__left-img">
+			<img src="./img/header-right.png" alt="дерево" class="header__right-img">
+			<div class="container">
+				<div class="header__wrapper">
+					<img src="./img/header-boot1.png" alt="обувь" class="header__boot1">
+					<img src="./img/header-boot2.png" alt="обувь" class="header__boot2">
+					<div class="header__decorate-title">
+						<p>KEDUKI COMO</p>
+					</div>
+					<div class="header__content">
+						<div class="sale">
+							<div class="sale__wrapper">
+								<span class="sale__sum">-50%</span>
+								<span class="sale__text">SALE OFF</span>
+							</div>
+						</div>
+						<h3 class="header__title">СКИДКИ НА МУЖСКУЮ ОБУВЬ ОТ KEDUKI!</h3>
+						<div class="header__price">
+							<div class="price">
+								<span class="old__price">1 000 грн</span>
+								<span class="new__price">2 000 грн</span>
+							</div>
+							<div class="order__btn-wrapper">
+								<a href="#card" class="header__order-btn">ПОДРОБНЕЕ</a>
+								<div class="time">Акция длится до <span>01.05.21</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div class="modal">
+		<div class="modal__wrapper">
+			<form class="active">
+				<div class="modal__autor">
+					<input type="text" class="name__input" placeholder="Имя" required>
+					<div class="modal__star-raiting">
+						Оценка: <div class="modal__raiting"></div>
+					</div>
+				</div>
+				<textarea cols="30" rows="10" class="modal__area" placeholder="Напишите ваш отзыв"></textarea>
+				<div class="modal__send">
+					<button type="submit" class="send">Отправить</button>
+				</div>
+			</form>
+			<div class="send__window">
+				<div class="send__img">
+					<img src="./img/mailing.png" alt="" class="modal__send-img">
+				</div>
+				<div class="send__massage">Спасибо за ваш отзыв,
+					он появится на сайте после проверки модератором</div>
+			</div>
+			<a class="modal__close"><img src="./img/close.png" alt="закрыть"></a>
+		</div>
+	</div>
+	<script src="./libs/jquery.min.js"></script>
+	<script src="./libs/jquery.events.touch.min.js"></script>
+	<script src="./libs/jquery.raty.js"></script>
+	<script src="./libs/jquery.fancybox.min.js"></script>
+	<script src="./libs/aos.js"></script>
+	<script src="./libs/carousel.js"></script>
+	<script src="./libs/slick.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
